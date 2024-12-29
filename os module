@@ -1,0 +1,7 @@
+import os 
+if os.path.exists("D:/Python Programs/Myfile.txt"):
+    os.remove("D:/Python Programs/Myfile.txt")
+else:
+    print("The file does not exist")
+#os.remove('D:/Python Programs/Myfile.txt')
+os.rmdir('D:/Python Programs/myfolder')
